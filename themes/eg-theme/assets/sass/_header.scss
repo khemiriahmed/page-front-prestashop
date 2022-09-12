@@ -1,0 +1,65 @@
+header {
+  .logo {
+    max-width: 174px;
+  }
+
+  .menu-content {
+    @include flexbox;
+    @include align-items(center);
+    @include justify-content(center);
+    text-transform: initial;
+    font-family: $Font-Primary;
+    font-size: 0.8rem;
+    li a span {
+      font-family: $Font-Primary;
+      text-transform: initial;
+    }
+
+    .menu {
+      padding-bottom: 0;
+    }
+  }
+  .language-selector {
+    font-family: $Font-Ubuntu;
+    button {
+      @include flexbox;
+      @include align-items(center);
+      box-shadow: none;
+      border-left: 2px solid $color_border;
+      padding-left: 12px;
+      height: 24px;
+      &::after {
+        content: "";
+        background-image: url("../img/arrow-down.png");
+        background-repeat: no-repeat;
+        height: 8px;
+        width: 12px;
+        border: none;
+      }
+      &:focus {
+        box-shadow: none;
+      }
+    }
+  }
+  .blockcart {
+    .blockcart__count {
+      background: $color_gris;
+      vertical-align: middle;
+      padding: 2px 7px;
+      font-family: $Font-Ubuntu;
+      @include bRaduis(50%);
+      text-align: center;
+      color: $color_white;
+      font-size: 15px;
+    }
+  }
+  .btn- {
+    @include btn-nav;
+    span {
+      font-weight: bold;
+    }
+  }
+
+  margin-bottom: 0 !important;
+  box-shadow: none !important;
+}

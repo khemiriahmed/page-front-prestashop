@@ -1,0 +1,138 @@
+// ===================================================================
+//  Template Name    : SimplyBox
+// Author            : Ahmed
+// Template Url      : http://ahmed514-001-site1.htempurl.com
+// ===================================================================
+* {
+  padding: 0;
+  margin: 0;
+  @include prefixer(box-sizing, border-box, webkit moz o ms);
+}
+body {
+  background-color: $color_white;
+}
+
+.slider-home {
+  .slider-caption {
+    text-align: center;
+    @include flexbox();
+    @include justify-content(center);
+    @include align-items(center);
+    text-transform: initial;
+    font-family: $Font-Secondary;
+    .txt-slider {
+      font-size: 2.2rem;
+      width: 50%;
+    }
+  }
+}
+
+//**********  Debut Block info/********** //
+.blockinfo-block {
+  background-color: #f9f9f9;
+  @include bRaduis(20px);
+  margin-top: -70px;
+  h3 {
+    font-family: $Font-Secondary;
+    font-size: 1rem;
+  }
+  p {
+    font-family: $Font-Ubuntu-light;
+    font-size: 0.9rem;
+    color: #4f4f4f;
+    font-weight: 400;
+  }
+}
+//**********  Fin Block info/********** //
+
+//********** Debut Block steplisting ***********//
+.stepslisting-block {
+  h2 {
+    font-family: $Font-Ubuntu;
+    font-size: 1.6rem;
+    span {
+      font-family: $Font-caveat-medium;
+      color: $color_primary;
+      font-size: 1.6rem;
+    }
+  }
+  h3 {
+    font-family: $Font-Secondary;
+    font-size: 1rem;
+  }
+  p {
+    font-family: $Font-Ubuntu-light;
+    font-size: 0.9rem;
+    color: #868668;
+    font-weight: 400;
+  }
+  img {
+    border: 1px solid #cacaca;
+    @include bRaduis(50%);
+  }
+}
+
+//********** FIN Block steplisting ***********//
+
+/********** debut Block Reassurance ***********/
+
+.reassurance-block {
+  ul {
+    @include flexbox();
+    @include justify-content(center);
+    li {
+      flex: 1;
+      text-align: center;
+    }
+    p {
+      font-family: $Font-Ubuntu;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+@media (max-width: 1000px) {
+  .reassurance-block {
+    ul {
+      @include flex-direction(column);
+      @include justify-content(center);
+    }
+  }
+}
+
+/********** Fin Block Reassurance ***********/
+
+/************ Debut block Menu Recette ***********/
+
+#custom-text {
+  border: none;
+}
+.block-menu {
+  .plat-menu {
+    p {
+      font-family: $Font-Secondary;
+      font-size: 0.7rem;
+    }
+    .mr-plat {
+      margin-top: -40px;
+    }
+  }
+  .bloc-text {
+    h3 {
+      font-family: $Font-Secondary;
+      font-size: 1.6rem;
+    }
+    h4 {
+      font-family: $Font-caveat-medium;
+      color: $color_primary;
+      font-size: 1.6rem;
+    }
+    p {
+      font-family: $Font-Ubuntu-light;
+      font-size: 0.9rem;
+      color: #000;
+    }
+  }
+}
+
+/************ Fin block Menu Recette ***********/

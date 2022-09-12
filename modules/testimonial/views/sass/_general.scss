@@ -1,0 +1,50 @@
+// ===================================================================
+//  Module Name      : Testimonial
+// Author            : Ahlmed
+// ===================================================================
+
+.block-testimonial {
+  .testimonial {
+    background-color: $color_white;
+    min-height: 279px;
+    padding: 25px 30px 40px 25px;
+    box-shadow: 0 0 9px rgba(148, 149, 158, 0.5);
+    @include bRadius(18px);
+  }
+  h1 {
+    color: $color_titre;
+    font-size: 2.25rem;
+    font-family: "Catamaran-bold";
+    text-transform: inherit;
+    margin-bottom: 0;
+  }
+  h3 {
+    color: $color_primary;
+    font-family: "Catamaran-bold";
+    font-size: 1.5rem;
+  }
+  p {
+    font-family: "Catamaran-Regular";
+    color: $color_texte;
+    line-height: 1.15rem;
+    font-size: 1rem;
+  }
+  .titre {
+    font-family: "Catamaran-bold";
+    font-size: 1.5rem;
+    color: $color_primary;
+  }
+  .note,
+  .nbcommande {
+    font-family: "Catamaran-bold";
+    font-size: 1rem;
+    color: $color_titre;
+  }
+
+  .note {
+    font-size: 1.2rem;
+    span {
+      font-size: 0.8rem;
+    }
+  }
+}

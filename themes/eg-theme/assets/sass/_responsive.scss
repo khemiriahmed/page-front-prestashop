@@ -1,0 +1,48 @@
+@media (max-width: 540px) {
+  header {
+    .header-top {
+      @include justify-content(center);
+    }
+  }
+  .slider-home {
+    .rc--lazyload,
+    img {
+      //height: 180px;
+    }
+    .slider-caption {
+      .txt-slider {
+        font-size: 1rem;
+      }
+    }
+  }
+  footer {
+    .social-sharing {
+      @include justify-content(center);
+    }
+    .block_newsletter {
+      text-align: center;
+    }
+    .needs-validation {
+      .input-group {
+        width: 80%;
+        margin: auto;
+      }
+      .condition-text {
+        padding: 0 30px;
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .blockinfo-block {
+    margin-top: 0;
+  }
+  .block-menu {
+    .plat-menu {
+      .mr-plat {
+        margin-top: 0;
+      }
+    }
+  }
+}

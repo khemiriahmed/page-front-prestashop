@@ -1,0 +1,85 @@
+// ===================================================================
+//  Module Name      : Avis clients
+// Author            : Test front 
+// ===================================================================
+
+
+.block-avis-client{
+        .avis {
+            background: $color_arriere_plan;
+            padding: 20px 15px;
+            @include bRadius(15px)
+           }
+            h1{
+                color:$color_titre;
+                font-size: 2.25rem;
+                font-family: 'Montserrat-bold';
+                text-align: center;
+                text-transform:inherit;
+            }
+            h3{
+                color: $color_primary;
+                font-family: 'caveat-medium';
+                font-style: italic;
+                text-align: center;
+                font-size: 2rem;
+            }
+            h4{
+                font-family: 'Montserrat-bold';
+                font-size: 1rem;
+            }
+            p{
+                font-family: 'ubunto-regular';
+                color: $color_texte;
+                font-size: 1rem;
+            }
+
+            .bloc-note{
+                @include flexbox();
+                @include align-items(center);
+                .note{
+                    font-family: 'Montserrat-bold';
+                }
+                .star {
+                    i:before{
+                        color: $color_star_gold;
+                        
+                    }
+                }
+            }
+          
+      //color star 
+            .color-avis-1-5{
+                i:nth-child(1)::before,
+                i:nth-child(2)::before,
+                i:nth-child(3)::before,
+                i:nth-child(4)::before{
+                    color: $color_star_gris;
+                }
+             }
+
+             .color-avis-2-5{
+                i:nth-child(1)::before,
+                i:nth-child(2)::before,
+                i:nth-child(3)::before{
+                     color:  $color_star_gris;
+                }
+             }
+
+             .color-avis-3-5{
+                i:nth-child(1)::before,
+                i:nth-child(2)::before{
+                     color: $color_star_gris;
+                }
+             }
+
+             .color-avis-4-5{
+                i:nth-child(1)::before{
+                     color: $color_star_gris;
+                }
+             }
+
+             .color-avis-5-5{
+               
+             }
+}

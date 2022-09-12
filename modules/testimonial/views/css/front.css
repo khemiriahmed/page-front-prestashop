@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/*-----------------------------------------------------------------------------------*/
+/******************************* appels aux fichiers  *******************************/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*-*-*-*-*-*-*-**-*- designé pour déclaré les colors -*-*-*-*-*--*-*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*-*-*-*-*-*-*-**-*- designé pour déclaré les Fonts -*-*-*-*-*--*-*/
+/*---------------------------------------------------------------------------------*/
+/****  Catamaran bold  font *****/
+@font-face {
+  font-family: 'Catamaran-bold';
+  src: url("../fonts/Catamaran/Catamaran-bold.ttf ") format("truetype"); }
+@font-face {
+  font-family: 'Catamaran-Regular';
+  src: url("../fonts/Catamaran/Catamaran-Regular.ttf ") format("truetype"); }
+/*---------------------------------------------------------------------------------*/
+/*-*-*-*-*-*-*-**-*- designé pour déclaré les Media Querie -*-*-*-*-*--*-*/
+/*---------------------------------------------------------------------------------*/
+.block-testimonial .testimonial {
+  background-color: #fff;
+  min-height: 279px;
+  padding: 25px 30px 40px 25px;
+  box-shadow: 0 0 9px rgba(148, 149, 158, 0.5);
+  -webkit-border-radius: 18px;
+  -ms-border-radius: 18px;
+  -moz-border-radius: 18px;
+  -o-border-radius: 18px;
+  border-radius: 18px; }
+.block-testimonial h1 {
+  color: #4a4a4a;
+  font-size: 2.25rem;
+  font-family: 'Catamaran-bold';
+  text-transform: inherit;
+  margin-bottom: 0; }
+.block-testimonial h3 {
+  color: #00a65a;
+  font-family: 'Catamaran-bold';
+  font-size: 1.5rem; }
+.block-testimonial p {
+  font-family: 'Catamaran-Regular';
+  color: #4a4a4a;
+  line-height: 1.15rem;
+  font-size: 1rem; }
+.block-testimonial .titre {
+  font-family: 'Catamaran-bold';
+  font-size: 1.5rem;
+  color: #00a65a; }
+.block-testimonial .note, .block-testimonial .nbcommande {
+  font-family: 'Catamaran-bold';
+  font-size: 1rem;
+  color: #4a4a4a; }
+.block-testimonial .note {
+  font-size: 1.2rem; }
+  .block-testimonial .note span {
+    font-size: 0.8rem; }
+
+@media (max-width: 767px) {
+  .block-avis-client .avis {
+    margin-bottom: 20px;
+    text-align: center; }
+
+  .bloc-note {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center; } }
+
+/*# sourceMappingURL=front.css.map */

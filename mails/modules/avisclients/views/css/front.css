@@ -1,0 +1,99 @@
+@charset "UTF-8";
+/*-----------------------------------------------------------------------------------*/
+/******************************* appels aux fichiers  *******************************/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*-*-*-*-*-*-*-**-*- designé pour déclaré les colors -*-*-*-*-*--*-*/
+/*---------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------*/
+/*-*-*-*-*-*-*-**-*- designé pour déclaré les Fonts -*-*-*-*-*--*-*/
+/*---------------------------------------------------------------------------------*/
+/****  Montserrat bold  font *****/
+@font-face {
+  font-family: 'Montserrat-bold';
+  src: url("../fonts/Montserrat_alternates/MontserratAlternates-Bold.ttf ") format("truetype"); }
+/****  Ubuntu font *****/
+@font-face {
+  font-family: 'ubuntu-bold';
+  src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf ") format("truetype"); }
+/****  Caveat font *****/
+@font-face {
+  font-family: 'caveat-medium';
+  src: url("../fonts/Caveat/static/Caveat-Medium.ttf ") format("truetype"); }
+/****  Montserrat light font *****/
+@font-face {
+  font-family: 'ubunto-regular';
+  src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format("truetype"); }
+/*---------------------------------------------------------------------------------*/
+/*-*-*-*-*-*-*-**-*- designé pour déclaré les Media Querie -*-*-*-*-*--*-*/
+/*---------------------------------------------------------------------------------*/
+.block-avis-client .avis {
+  background: #f9f9f9;
+  padding: 20px 15px;
+  -webkit-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -o-border-radius: 15px;
+  border-radius: 15px; }
+.block-avis-client h1 {
+  color: #232323;
+  font-size: 2.25rem;
+  font-family: 'Montserrat-bold';
+  text-align: center;
+  text-transform: inherit; }
+.block-avis-client h3 {
+  color: #73C014;
+  font-family: 'caveat-medium';
+  font-style: italic;
+  text-align: center;
+  font-size: 2rem; }
+.block-avis-client h4 {
+  font-family: 'Montserrat-bold';
+  font-size: 1rem; }
+.block-avis-client p {
+  font-family: 'ubunto-regular';
+  color: #828282;
+  font-size: 1rem; }
+.block-avis-client .bloc-note {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+  align-items: center; }
+  .block-avis-client .bloc-note .note {
+    font-family: 'Montserrat-bold'; }
+  .block-avis-client .bloc-note .star i:before {
+    color: #fed750; }
+.block-avis-client .color-avis-1-5 i:nth-child(1)::before,
+.block-avis-client .color-avis-1-5 i:nth-child(2)::before,
+.block-avis-client .color-avis-1-5 i:nth-child(3)::before,
+.block-avis-client .color-avis-1-5 i:nth-child(4)::before {
+  color: #828282; }
+.block-avis-client .color-avis-2-5 i:nth-child(1)::before,
+.block-avis-client .color-avis-2-5 i:nth-child(2)::before,
+.block-avis-client .color-avis-2-5 i:nth-child(3)::before {
+  color: #828282; }
+.block-avis-client .color-avis-3-5 i:nth-child(1)::before,
+.block-avis-client .color-avis-3-5 i:nth-child(2)::before {
+  color: #828282; }
+.block-avis-client .color-avis-4-5 i:nth-child(1)::before {
+  color: #828282; }
+
+@media (max-width: 767px) {
+  .block-avis-client .avis {
+    margin-bottom: 20px;
+    text-align: center; }
+
+  .bloc-note {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    justify-content: center; } }
+
+/*# sourceMappingURL=front.css.map */

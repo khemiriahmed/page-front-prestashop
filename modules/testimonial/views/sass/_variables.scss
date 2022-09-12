@@ -1,0 +1,47 @@
+/*---------------------------------------------------------------------------------*/
+
+/*-*-*-*-*-*-*-**-*- designé pour déclaré les colors -*-*-*-*-*--*-*/
+
+/*---------------------------------------------------------------------------------*/
+$color_primary: #00a65a;
+$color_secondary: #8F99A7;
+$color_arriere_plan: #f9f9f9;
+$color_black: #000;
+$color_titre: #4a4a4a;
+$color_texte: #4a4a4a;
+$color_white: #fff;
+$color_border: #e5e5e5;
+$color_star_gris:#828282;
+$color_botton_hover: #e3b371;
+
+
+
+/*---------------------------------------------------------------------------------*/
+
+/*-*-*-*-*-*-*-**-*- designé pour déclaré les Fonts -*-*-*-*-*--*-*/
+
+/*---------------------------------------------------------------------------------*/
+
+/****  Catamaran bold  font *****/
+@font-face {
+    font-family: 'Catamaran-bold';
+    src: url("../fonts/Catamaran/Catamaran-bold.ttf ") format('truetype');
+}
+
+@font-face {
+    font-family: 'Catamaran-Regular';
+    src: url("../fonts/Catamaran/Catamaran-Regular.ttf ") format('truetype');
+}
+
+
+
+
+/*---------------------------------------------------------------------------------*/
+
+/*-*-*-*-*-*-*-**-*- designé pour déclaré les Media Querie -*-*-*-*-*--*-*/
+
+/*---------------------------------------------------------------------------------*/
+
+$maxMobile:767px;
+$minSmall:768px;
+$maxSmall:991px;

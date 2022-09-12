@@ -1,0 +1,4 @@
+*ERROR* 	v1.7.8.6	2022/08/15 - 21:13:50: Link to database cannot be established: SQLSTATE[HY000] [2002] Aucune connexion n&rsquo;a pu &ecirc;tre &eacute;tablie car l&rsquo;ordinateur cible l&rsquo;a express&eacute;ment refus&eacute;e.
+ at line 136 in file classes/db/DbPDO.php
+*ERROR* 	v1.7.8.6	2022/08/15 - 21:13:52: Link to database cannot be established: SQLSTATE[HY000] [2002] Aucune connexion n&rsquo;a pu &ecirc;tre &eacute;tablie car l&rsquo;ordinateur cible l&rsquo;a express&eacute;ment refus&eacute;e.
+ at line 136 in file classes/db/DbPDO.php

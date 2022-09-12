@@ -1,0 +1,74 @@
+/*---------------------------------------------------------------------------------*/
+
+
+/*-*-*-*-*-*-*-**-*- designé pour déclaré les couleurs -*-*-*-*-*--*-*/
+
+
+/*---------------------------------------------------------------------------------*/
+
+$color_primary: #73c014;
+$color_secondary: #FD8922;
+$color_arriere_plan: #e6e6e6;
+$color_menu_hover: #f19e0d;
+$color_black: #000;
+$color_gris: #394044;
+$color_menu: #3352a2;
+$color_titre: #5a5a5a;
+$color_texte: #999;
+$color_white: #fff;
+$color_footer: #394044;
+$color_border: #e2e5e6;
+$color_botton_hover: #e3b371;
+$bg_footer:#dedede;
+
+/*---------------------------------------------------------------------------------*/
+
+
+/*-*-*-*-*-*-*-**-*- designé pour déclaré les Fonts -*-*-*-*-*--*-*/
+
+
+/*---------------------------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'Montserrat-light';
+    src: url("../fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url("../fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'ubunto-Bold';
+    src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'caveat-medium';
+    src: url("../fonts/Caveat/static/Caveat-Medium.ttf ") format('truetype');
+}
+
+@font-face {
+    font-family: 'ubunto-light';
+    src: url("../fonts/Ubuntu/Ubuntu-Light.ttf") format('truetype');
+}
+
+$Font-Primary:'Montserrat-light';
+$Font-Secondary:"Montserrat-bold";
+$Font-Ubuntu: 'Ubunto-Bold';
+$Font-Ubuntu-light: 'Ubunto-light';
+$Font-caveat-medium: 'caveat-medium';
+$main-Size:16px;
+
+
+/*---------------------------------------------------------------------------------*/
+
+
+/*-*-*-*-*-*-*-**-*- Media Querie -*-*-*-*-*--*-*/
+
+
+/*---------------------------------------------------------------------------------*/
+$maxMobile:767px;
+$minSmall:768px;
+$maxSmall:991px;

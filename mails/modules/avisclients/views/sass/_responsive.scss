@@ -1,0 +1,11 @@
+@media (max-width: $maxMobile) {
+    .block-avis-client{
+       .avis{
+        margin-bottom: 20px;
+        text-align: center;
+       } 
+    }
+    .bloc-note {
+        @include justify-content(center);
+    }
+}

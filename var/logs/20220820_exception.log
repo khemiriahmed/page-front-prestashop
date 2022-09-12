@@ -1,0 +1,56 @@
+*ERROR* 	v1.7.8.6	2022/08/20 - 05:44:39: La table &#039;webbax.ps_avis_clients_1&#039; n&#039;existe pas&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT * FROM ps_avis_clients_1 avs
+            LEFT JOIN ps_avisclients_1_lang avsl on avs.id_avisclients_1 = avsl.id_avisclients_1
+            AND avsl.id_lang = 1 WHERE avs.id_shop = 1&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 05:45:03: Champ &#039;avs.id_shop&#039; inconnu dans where clause&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT * FROM ps_avisclients_1 avs
+            LEFT JOIN ps_avisclients_1_lang avsl on avs.id_avisclients_1 = avsl.id_avisclients_1
+            AND avsl.id_lang = 1 WHERE avs.id_shop = 1&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 05:48:59: Champ &#039;avs.id_shop&#039; inconnu dans where clause&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT * FROM ps_avisclients_1 avs
+            LEFT JOIN ps_avisclients_1_lang avsl on avs.id_avisclients_1 = avsl.id_avisclients_1
+            AND avsl.id_lang = 1 WHERE avs.id_shop = 1&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 05:49:17: Champ &#039;avs.id_shop&#039; inconnu dans where clause&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT * FROM ps_avisclients_1 avs
+            LEFT JOIN ps_avisclients_1_lang avsl on avs.id_avisclients_1 = avsl.id_avisclients_1
+            AND avsl.id_lang = 1 WHERE avs.id_shop = 1&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 05:54:59: Champ &#039;avs.id_shop&#039; inconnu dans where clause&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT * FROM ps_avisclients_1 avs
+            LEFT JOIN ps_avisclients_1_lang avsl on avs.id_avisclients_1 = avsl.id_avisclients_1
+            AND avsl.id_lang = 1 WHERE avs.id_shop = 1&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 06:09:31: Champ &#039;avs.id_shop&#039; inconnu dans where clause&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT * FROM ps_avisclients_1 avs
+            LEFT JOIN ps_avisclients_1_lang avsl on avs.id_avisclients_1 = avsl.id_avisclients_1
+            AND avsl.id_lang = 1 WHERE avs.id_shop = 1&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 06:23:26: Champ &#039;avs.id_shop&#039; inconnu dans where clause&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT * FROM ps_avisclients_1 avs
+            LEFT JOIN ps_avisclients_1_lang avsl on avs.id_avisclients_1 = avsl.id_avisclients_1
+            AND avsl.id_lang = 1 WHERE avs.id_shop = 1&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 06:26:58: Champ &#039;avs.id_shop&#039; inconnu dans where clause&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT * FROM ps_avisclients_1 avs
+            LEFT JOIN ps_avisclients_1_lang avsl on avs.id_avisclients_1 = avsl.id_avisclients_1
+            AND avsl.id_lang = 1 WHERE avs.id_shop = 1&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 06:28:17: Champ &#039;avs.id_shop&#039; inconnu dans where clause&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT * FROM ps_avisclients_1 avs
+            LEFT JOIN ps_avisclients_1_lang avsl on avs.id_avisclients_1 = avsl.id_avisclients_1
+            AND avsl.id_lang = 1 WHERE avs.id_shop = 1&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 06:54:40: Champ &#039;avs.id_shop&#039; inconnu dans where clause&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT * FROM ps_avisclients_1 avs
+            LEFT JOIN ps_avisclients_1_lang avsl on avs.id_avisclients_1 = avsl.id_avisclients_1
+            AND avsl.id_lang = 1 WHERE avs.id_shop = 1&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 06:55:28: La table &#039;webbax.ps_avisclients_1&#039; n&#039;existe pas&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT * FROM ps_avisclients_1 avs
+            LEFT JOIN ps_avisclients_1_lang avsl on avs.id_avisclients_1 = avsl.id_avisclients_1
+            AND avsl.id_lang = 1 WHERE avs.id_shop = 1&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 07:00:57: La table &#039;webbax.ps_avisclients_1&#039; n&#039;existe pas&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT * FROM ps_avisclients_1 avs
+            LEFT JOIN ps_avisclients_1_lang avsl on avs.id_avisclients_1 = avsl.id_avisclients_1
+            AND avsl.id_lang = 1 WHERE avs.id_shop = 1&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 07:11:09: La table &#039;webbax.ps_avisclients_1&#039; n&#039;existe pas&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT * FROM ps_avisclients_1 avs
+            LEFT JOIN ps_avisclients_1_lang avsl on avs.id_avisclients_1 = avsl.id_avisclients_1
+            AND avsl.id_lang = 1 WHERE avs.id_shop = 1&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 16:54:34: Champ &#039;position&#039; inconnu dans field list&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;SELECT MAX(position) FROM `ps_avisclients_1` LIMIT 1&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 17:01:12: Champ &#039;signature&#039; inconnu dans field list&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;INSERT INTO `ps_avisclients_1_lang` (`id_avisclients_1`, `signature`, `testimonial`, `id_lang`) VALUES (&#039;1&#039;, &#039;&#039;, &#039;oook&#039;, &#039;1&#039;)&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 17:09:25: Champ &#039;signature&#039; inconnu dans field list&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;INSERT INTO `ps_avisclients_1_lang` (`id_avisclients_1`, `signature`, `testimonial`, `id_lang`) VALUES (&#039;2&#039;, &#039;&#039;, &#039;hggh&#039;, &#039;1&#039;)&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 17:10:18: Champ &#039;signature&#039; inconnu dans field list&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;INSERT INTO `ps_avisclients_1_lang` (`id_avisclients_1`, `signature`, `testimonial`, `id_lang`) VALUES (&#039;3&#039;, &#039;&#039;, &#039;hggh&#039;, &#039;1&#039;)&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 17:10:44: Champ &#039;signature&#039; inconnu dans field list&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;INSERT INTO `ps_avisclients_1_lang` (`id_avisclients_1`, `signature`, `testimonial`, `id_lang`) VALUES (&#039;4&#039;, &#039;&#039;, &#039;dsfsdff&#039;, &#039;1&#039;)&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 17:10:44: Champ &#039;signature&#039; inconnu dans field list&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;INSERT INTO `ps_avisclients_1_lang` (`id_avisclients_1`, `signature`, `testimonial`, `id_lang`) VALUES (&#039;5&#039;, &#039;&#039;, &#039;dsfsdff&#039;, &#039;1&#039;)&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 17:13:03: Champ &#039;signature&#039; inconnu dans field list&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;INSERT INTO `ps_avisclients_1_lang` (`id_avisclients_1`, `signature`, `testimonial`, `id_lang`) VALUES (&#039;6&#039;, &#039;&#039;, &#039;dsfsdff&#039;, &#039;1&#039;)&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 17:13:47: Champ &#039;signature&#039; inconnu dans field list&lt;br /&gt;&lt;br /&gt;&lt;pre&gt;INSERT INTO `ps_avisclients_1_lang` (`id_avisclients_1`, `signature`, `testimonial`, `id_lang`) VALUES (&#039;7&#039;, &#039;&#039;, &#039;dsfsdff&#039;, &#039;1&#039;)&lt;/pre&gt; at line 769 in file classes/db/Db.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 17:58:16: La propri&eacute;t&eacute; Avis_clients-&gt;note n&#039;est pas valide. at line 1046 in file classes/ObjectModel.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 18:02:32: La propri&eacute;t&eacute; Avis_clients-&gt;note n&#039;est pas valide. at line 1046 in file classes/ObjectModel.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 18:04:21: La propri&eacute;t&eacute; Avis_clients-&gt;note n&#039;est pas valide. at line 1046 in file classes/ObjectModel.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 18:05:27: La propri&eacute;t&eacute; Avis_clients-&gt;Note est vide. at line 1046 in file classes/ObjectModel.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 18:05:37: La propri&eacute;t&eacute; Avis_clients-&gt;Note est vide. at line 1046 in file classes/ObjectModel.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 18:11:01: La propri&eacute;t&eacute; Avis_clients-&gt;note n&#039;est pas valide. at line 1046 in file classes/ObjectModel.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 18:32:25: La propri&eacute;t&eacute; Avis_clients-&gt;note n&#039;est pas valide. at line 1046 in file classes/ObjectModel.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 18:33:05: La propri&eacute;t&eacute; Avis_clients-&gt;note n&#039;est pas valide. at line 1046 in file classes/ObjectModel.php
+*ERROR* 	v1.7.8.6	2022/08/20 - 18:33:13: La propri&eacute;t&eacute; Avis_clients-&gt;note n&#039;est pas valide. at line 1046 in file classes/ObjectModel.php

@@ -1,0 +1,50 @@
+footer {
+  background-color: $color_footer;
+  color: $color_white;
+  .footer__title {
+    text-transform: inherit;
+    font-family: $Font-Secondary;
+    font-size: 1.2rem !important;
+    margin-bottom: 2rem;
+    &:hover {
+      color: $color_white;
+    }
+  }
+  .cms-page-link {
+    font-family: $Font-Ubuntu-light;
+    font-size: 0.9rem;
+    font-weight: bold;
+  }
+  .social-sharing {
+    padding: 0;
+    .facebook,
+    .instagram {
+      background-image: url(/img/facebook.svg);
+      background-color: transparent;
+      fill: $color_white;
+      height: 30px;
+      margin: 0;
+    }
+    .instagram {
+      background-image: url(/img/instagram.svg);
+    }
+  }
+  .block_newsletter,
+  .block-newsletter-label {
+    padding: 0;
+  }
+  p {
+    font-family: $Font-Ubuntu-light;
+    font-weight: bold !important;
+    font-size: 0.8rem !important;
+    a {
+      color: $color_white;
+    }
+  }
+  .btn-newsletter {
+    .btn {
+      background-color: $color_primary;
+      border: $color_primary;
+    }
+  }
+}

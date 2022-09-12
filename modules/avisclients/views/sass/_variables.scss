@@ -1,0 +1,59 @@
+/*---------------------------------------------------------------------------------*/
+
+/*-*-*-*-*-*-*-**-*- designé pour déclaré les colors -*-*-*-*-*--*-*/
+
+/*---------------------------------------------------------------------------------*/
+$color_primary: #73C014;
+$color_secondary: #8F99A7;
+$color_arriere_plan: #f9f9f9;
+$color_black: #000;
+$color_titre: #232323;
+$color_texte: #828282;
+$color_white: #fff;
+$color_border: #e5e5e5;
+$color_star_gold:#fed750;
+$color_star_gris:#828282;
+$color_botton_hover: #e3b371;
+
+
+
+/*---------------------------------------------------------------------------------*/
+
+/*-*-*-*-*-*-*-**-*- designé pour déclaré les Fonts -*-*-*-*-*--*-*/
+
+/*---------------------------------------------------------------------------------*/
+
+/****  Montserrat bold  font *****/
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url("../fonts/Montserrat_alternates/MontserratAlternates-Bold.ttf ") format('truetype');
+}
+
+/****  Ubuntu font *****/
+@font-face {
+    font-family: 'ubuntu-bold';
+    src: url("../fonts/Ubuntu/Ubuntu-Bold.ttf ") format('truetype');
+}
+
+/****  Caveat font *****/
+
+@font-face {
+    font-family: 'caveat-medium';
+    src: url("../fonts/Caveat/static/Caveat-Medium.ttf ") format('truetype');
+}
+
+/****  Montserrat light font *****/
+@font-face {
+    font-family: 'ubunto-regular';
+    src: url("../fonts/Ubuntu/Ubuntu-Regular.ttf") format('truetype');
+}
+
+/*---------------------------------------------------------------------------------*/
+
+/*-*-*-*-*-*-*-**-*- designé pour déclaré les Media Querie -*-*-*-*-*--*-*/
+
+/*---------------------------------------------------------------------------------*/
+
+$maxMobile:767px;
+$minSmall:768px;
+$maxSmall:991px;

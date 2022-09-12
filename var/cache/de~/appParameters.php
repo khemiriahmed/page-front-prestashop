@@ -1,0 +1,25 @@
+<?php return array (
+  'parameters' => 
+  array (
+    'database_host' => '127.0.0.1',
+    'database_port' => '',
+    'database_name' => 'webbax',
+    'database_user' => 'root',
+    'database_password' => '',
+    'database_prefix' => 'ps_',
+    'database_engine' => 'InnoDB',
+    'mailer_transport' => 'smtp',
+    'mailer_host' => '127.0.0.1',
+    'mailer_user' => NULL,
+    'mailer_password' => NULL,
+    'secret' => 'Ceazr21iuYQv5ZpMDDJhA53VSPZdUYKEumABJRoZmITTu5jrKTPaRJmqytKgbcEP',
+    'ps_caching' => 'CacheMemcache',
+    'ps_cache_enable' => false,
+    'ps_creation_date' => '2022-07-21',
+    'locale' => 'fr-FR',
+    'use_debug_toolbar' => true,
+    'cookie_key' => 'QFwaI1GHwq2kRVd8I78G0XKEXYGbDVWGMNqHHqdvNe5ejtxzEVJNIC1PooJpwdtd',
+    'cookie_iv' => 'pkX90oFJxajWfJ9OyaiUwj0dO4HcqYNY',
+    'new_cookie_key' => 'def0000083cc90c19c638342acfd6396d8f56f3f71d87257d0a80029a81cf0ac38025a44d5c30de425634c4f5240a2e45c7fa9621e244955b88c44c6b6abe0c53b3f6b06',
+  ),
+);
